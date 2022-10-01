@@ -15,7 +15,7 @@ on:
 #    types: started
 
 env:
-  TOOLCHAIN_TAG: x-wrt-x-wrt-master
+  TOOLCHAIN_TAG: x-wrt-x-wrt-22.03_b202210011001
   TOOLCHAIN_NAME: toolchain-image-x-wrt-x-wrt-22.03_b202210011001-mediatek-filogic.img
   TZ: Asia/Shanghai
 
