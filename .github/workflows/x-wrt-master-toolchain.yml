@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: x-wrt Toolchain Build
+name: x-wrt AX6000 Toolchain Build
 on:
   workflow_dispatch:
 #  schedule:
@@ -21,7 +21,7 @@ env:
 
 jobs:
   Build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     strategy:
       fail-fast: false
       matrix:
